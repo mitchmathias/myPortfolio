@@ -30,7 +30,7 @@ const Portfolio = () => {
                     </div>
                     <div className="col mb-2">
                     <div className="card">
-                        <img src="images/WeatherDashboard.png" className="card-img-top" alt="placeholder" />
+                        <img src="images/PasswordGenerator.png" className="card-img-top" alt="placeholder" />
                         <div className="card-body">
                             <h5 className="card-title">Password Generator</h5>
                             <p>A website that Creates Secure passwords using random number, letter, and symbol generators</p>
