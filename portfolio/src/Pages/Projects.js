@@ -2,8 +2,8 @@ import React from 'react';
 
 const Portfolio = () => {
     return (
-        <div>
-            <section className="row" style={{"margin-top": "5%", "margin-left": "20%", "margin-right": "20%", "margin-bottom": "10%"}} >
+        <body>
+            <section className="row" style={{"margin-top": "5%", "margin-left": "5%", "margin-right": "5%", "margin-bottom": "10%"}} >
                 <div className="col mb-2">
                     <div className="card">
                         <img src="images/TrailWeatherTracker.png" className="card-img-top" alt="placeholder" />
@@ -17,7 +17,7 @@ const Portfolio = () => {
                     </div>
                 </div>
                 
-                    <div className="col mb-3">
+                    <div className="col mb-2">
                         <div className="card">
                             <img src="images/DayPlanner.png" className="card-img-top" alt="placeholder" />
                             <div className="card-body">
@@ -31,7 +31,7 @@ const Portfolio = () => {
                 
             </section>
 
-            <section className="row" style={{"margin-top": "5%", "margin-left": "20%", "margin-right": "20%", "margin-bottom": "10%"}}>
+            <section className="row" style={{"margin-top": "5%", "margin-left": "5%", "margin-right": "5%", "margin-bottom": "10%"}}>
                 <div className="col mb-2">
                     <div className="card">
                         <img src="images/WeatherDashboard.png" className="card-img-top" alt="placeholder" />
@@ -43,7 +43,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col mb-3">
+                <div className="col mb-2">
                     <div className="card">
                         <img src="images/signup.png" className="card-img-top" alt="placeholder" />
                         <div className="card-body">
@@ -55,7 +55,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </section>
-        </div>
+        </body>
     );
 }
 
