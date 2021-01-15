@@ -33,7 +33,7 @@ const Portfolio = () => {
                         <img src="images/PasswordGenerator.png" className="card-img-top" alt="placeholder" />
                         <div className="card-body">
                             <h5 className="card-title">Password Generator</h5>
-                            <p>A website that Creates Secure passwords using random number, letter, and symbol generators</p>
+                            <p>A website that creates secure passwords using random number, letter, and symbol generators</p>
                             <p><a href="https://mitchmathias.github.io/passwordCreator/">Password Generator</a></p>
                             <a href="https://github.com/mitchmathias/passwordCreator">Github Repo</a>
                         </div>
