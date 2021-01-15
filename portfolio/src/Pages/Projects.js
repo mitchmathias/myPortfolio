@@ -1,11 +1,9 @@
 import React from 'react';
-import './index.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Portfolio() {
+const Portfolio = () => {
     return (
         <div>
-            <section className="row" >
+            <section className="row" style={{"margin-top": "5%", "margin-left": "20%", "margin-right": "20%", "margin-bottom": "10%"}} >
                 <div className="col mb-2">
                     <div className="card">
                         <img src="images/TrailWeatherTracker.png" className="card-img-top" alt="placeholder" />
@@ -33,7 +31,7 @@ function Portfolio() {
                 
             </section>
 
-            <section className="row">
+            <section className="row" style={{"margin-top": "5%", "margin-left": "20%", "margin-right": "20%", "margin-bottom": "10%"}}>
                 <div className="col mb-2">
                     <div className="card">
                         <img src="images/WeatherDashboard.png" className="card-img-top" alt="placeholder" />
@@ -61,4 +59,4 @@ function Portfolio() {
     );
 }
 
-export default Portfolio
+export default Portfolio 

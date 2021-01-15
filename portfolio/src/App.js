@@ -1,9 +1,37 @@
-import './App.css';
-import Project  from "./components/Project/Project"
+import React, { useState } from 'react';
+import './style.css';
+import Footer from './components/Footer/Footer';
+import NavBar from './components/NavBar/NavBar';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import Project from './Pages/Projects';
+import Wrapper from './components/Wrapper/Wrapper'
+import { BrowserRouter } from 'react-router-dom';
 
-function App() {
+
+const App = () => {
+  const [tab, setTab] = useState("about");
+
+  const clickAbout = () => {
+    setTab("about")
+  }
+  const clickProjects = () => {
+    setTab("projects")
+  }
+  const clickContact = () => {
+    setTab("contact")
+  }
+
   return (
-    <Project />
+    <BrowserRouter>
+      <Wrapper>
+          < NavBar SetAboutTab={clickAbout} SetProjectsTab={clickProjects} SetContactTab={clickContact} />
+            {tab === "about" && < About />}
+            {tab === "projects" && < Project />}
+            {tab ==="contact" && < Contact />}
+        </Wrapper>
+        < Footer />
+    </BrowserRouter>
   );
 }
 
