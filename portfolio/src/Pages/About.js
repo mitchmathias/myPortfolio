@@ -13,7 +13,7 @@ const About = () => {
                         style={{ "float": "left", "margin-right": "20px", "height": "150px", "width": "150px" }} />
                     <p className="row-md-8" style={{ "float": "inline-end" }}>
                         Hi! My name is Mitch Mathias. I  am a Graduate of UNCC's Full
-                        Stack Flex Boootcamp. I currently live in Charolette, NC, and love mountain bikingand playing golf. I am experienced in React, Javascript,Node, and HTML/CSS. I am also proficent with API's, Databases, GitHub and Windows Command Line</p>
+                        Stack Flex Boootcamp. I currently live in Charolette, NC, and love mountain biking and playing golf. I am experienced in React, Javascript,Node, and HTML/CSS. I am also proficent with API's, Databases, GitHub and Windows Command Line</p>
 
                     <p>View my <a href="https://docs.google.com/document/d/1LMN1iHcrtaviPV01W5BmoYGBeYjNo1IaYMPX3LYM2uY/edit">Resume</a></p>
 
