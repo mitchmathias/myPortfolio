@@ -15,9 +15,9 @@ const NavBar = props => {
                     <li className="nav-item">
                         <Link onClick={props.SetProjectsTab} className={"nav-link active nav-link"}>Projects</Link>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <Link onClick={props.SetContactTab} className={"nav-link active nav-link"}>Contact me</Link>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </nav>

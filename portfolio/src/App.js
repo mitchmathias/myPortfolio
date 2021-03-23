@@ -18,17 +18,17 @@ const App = () => {
   const clickProjects = () => {
     setTab("projects")
   }
-  const clickContact = () => {
-    setTab("contact")
-  }
+  // const clickContact = () => {
+  //   setTab("contact")
+  // }
 
   return (
     <BrowserRouter>
       <Wrapper>
-          < NavBar SetAboutTab={clickAbout} SetProjectsTab={clickProjects} SetContactTab={clickContact} />
+          < NavBar SetAboutTab={clickAbout} SetProjectsTab={clickProjects} />
             {tab === "about" && < About />}
             {tab === "projects" && < Project />}
-            {tab ==="contact" && < Contact />}
+            {/* {tab ==="contact" && < Contact />} */}
         </Wrapper>
         < Footer />
     </BrowserRouter>
